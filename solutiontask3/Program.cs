@@ -1,22 +1,22 @@
 ﻿// Первый варинат решения
-// string? inputLineOne = Console.ReadLine();
+string? inputLineOne = Console.ReadLine();
 
-// if(inputLineOne != null)
-// {
-//     int inputNumber = int.Parse(inputLineOne);
+if(inputLineOne != null)
+{
+    int inputNumber = int.Parse(inputLineOne);
 
-//     int startNumber = (inputNumber * -1);
+    int startNumber = (inputNumber * -1);
 
-//     string lineOutput = "";
+    string lineOutput = "";
 
-//     while (startNumber < inputNumber)
-//     {
-//         lineOutput = lineOutput+startNumber+", ";
-//         startNumber++;
-//     }
+    while (startNumber < inputNumber)
+    {
+        lineOutput = lineOutput+startNumber+", ";
+        startNumber++;
+    }
 
-//     Console.WriteLine(lineOutput);
-// }
+    Console.WriteLine(lineOutput);
+}
 
 // Второй вариант решения
 // string? inputLineOne = Console.ReadLine();
