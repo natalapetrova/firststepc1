@@ -3,7 +3,7 @@ string? inputFirst = Console.ReadLine();
 Console.WriteLine("Введите второе число");
 string? inputSecond = Console.ReadLine();
 
-if ((inputFirst != null) && (inputFirst != null))
+if ((inputFirst != null) && (inputSecond != null))
 {
     int inputNumberFirst = int.Parse(inputFirst);
     int inputNumberSecond = int.Parse(inputSecond);
