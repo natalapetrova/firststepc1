@@ -1,23 +1,23 @@
 ﻿//Первое решение
-// string? inputLineOne = Console.ReadLine();
-// string? inputLineTwo = Console.ReadLine();
+string? inputLineOne = Console.ReadLine();
+string? inputLineTwo = Console.ReadLine();
 
-// if(inputLineOne != null && inputLineTwo != null)
-// {
-//     int inputNumberOne = int.Parse(inputLineOne);
-//     int inputNumberTwo = int.Parse(inputLineTwo);
+if(inputLineOne != null && inputLineTwo != null)
+{
+    int inputNumberOne = int.Parse(inputLineOne);
+    int inputNumberTwo = int.Parse(inputLineTwo);
 
-//     int div = inputNumberTwo%inputNumberOne;
-//     if(div == 0)
-//     {
-//         Console.WriteLine("yes");
-//     }
-//     else
-//     {
-//         Console.WriteLine(div);
+    int div = inputNumberTwo%inputNumberOne;
+    if(div == 0)
+    {
+        Console.WriteLine("yes");
+    }
+    else
+    {
+        Console.WriteLine(div);
 
-//     }
-// }
+    }
+}
 
 //Второе решение
 Console.Write("Enter first number: ");
