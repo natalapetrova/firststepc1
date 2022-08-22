@@ -38,10 +38,10 @@ int ColculateTask(int[] inputArray, int downBorder, int upBorder)
     int i = 0;                                     //Оператор который будет переключаться и пробегать по всему массиву
     while (i < inputArray.Length)
     {
-        if (inputArray[i] >= downBorder && inputArray[i] <= upBorder)            //Если этот элемент будет равен тому числу которое мы ищем
+        if (inputArray[i] >= downBorder && inputArray[i] <= upBorder)            
         {
             Console.Write(inputArray[i]+" ");
-            resultCount++;                                //Прерываем операцию сразу после нахождения числа
+            resultCount++;   
         }
         i++;
     }
