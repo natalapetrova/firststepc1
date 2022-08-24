@@ -50,8 +50,12 @@ void ColculateTask(int[] outArray)       // Метод ничего не воз�
     Console.WriteLine(resultArray);         // печатаем массив в консоль
 }
 
-int[] bufferArray = FillingArray();         // вызываем методы
 
+int[] bufferArray = FillingArray();         // вызываем методы
 PrintIntArray(bufferArray);
 ColculateTask(bufferArray);
+
+
+
+
 
