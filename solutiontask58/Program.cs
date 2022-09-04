@@ -1,5 +1,7 @@
 ﻿// Задача 58: Задайте две матрицы. Напишите программу, которая будет находить произведение двух матриц.
 
+
+// Метод заполняет двумерный массив
 int[,] FillTwoDimArray(int countRow, int countColumn)
 {
     System.Random numberSyntezator = new System.Random();
@@ -18,6 +20,7 @@ int[,] FillTwoDimArray(int countRow, int countColumn)
     return outArray;
 }
 
+// Метод печатает двумерный массив
 void PrintTwoDimArray(int[,] inputArray)
 {
     int i = 0; int j = 0;
@@ -35,6 +38,7 @@ void PrintTwoDimArray(int[,] inputArray)
     Console.WriteLine();
 }
 
+// Метод выполняет умножение двух двумерных массивов и проверяет на условие
 int[,] Multiplication(int[,] firstMatrix, int[,] secondMatrix)
 {
     if (firstMatrix.GetLength(1) != secondMatrix.GetLength(0)) throw new Exception("Матрицы нельзя перемножить");
