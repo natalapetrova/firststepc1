@@ -48,7 +48,6 @@ void PrintTwoDimArray(int[,] inputArray)
 int FindRow(int[,] array)
 {
     int minSumRow = array.Cast<int>().Sum();
-
     for (int i = 0; i < array.GetLength(0); i++)
     {
         int sumRow = 0;
@@ -64,12 +63,14 @@ int FindRow(int[,] array)
     }
     Console.WriteLine($" Минимальная сумма строки  " + minSumRow);
     return index;
+
 }
 
 void PrintAnswer(int index)
 {
     Console.WriteLine($"\n{index + 1} - номер строки с наименьшей суммой");
 }
+
 
 int[,] twoDimArray = FillTwoDimArray(4, 5);
 PrintTwoDimArray(twoDimArray);
